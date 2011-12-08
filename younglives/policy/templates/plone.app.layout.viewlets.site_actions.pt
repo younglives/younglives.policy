@@ -1,0 +1,25 @@
+<ul id="portal-siteactions"
+    tal:define="portal_state context/@@plone_portal_state;
+                accesskeys python: {'sitemap' : '3', 'accessibility' : '0', 'contact' : '9'};"
+    tal:condition="view/site_actions"
+    i18n:domain="plone">
+    
+    <li tal:condition="not:portal_state/anonymous">
+        <a href="#" title="Your Profile"
+           tal:attributes="href string:${portal_state/navigation_root_url}/update-user">Your Profile</a>
+        |
+    </li>
+    <li tal:repeat="saction view/site_actions"
+        tal:attributes="id string:siteaction-${saction/id}"><a
+           href=""
+           tal:define="title saction/title;
+                       id saction/id;
+                       accesskey python: accesskeys.get(id, '');"
+           i18n:attributes="title"
+           i18n:translate=""
+           tal:attributes="href saction/url;
+                           title title;
+                           accesskey accesskey;"
+           ><span tal:attributes="class saction/id"></span>
+              <span tal:content="title">Site action</span></a></li>
+</ul>

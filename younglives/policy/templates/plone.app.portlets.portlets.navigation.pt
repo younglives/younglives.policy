@@ -1,0 +1,12 @@
+<tal:block i18n:domain="plone">
+<div id="subnav" class="portlet"
+     tal:define="root view/navigation_root">
+
+    <ul>
+        <li tal:replace="structure view/createNavTree">
+            SUBTREE
+        </li>
+    </ul>
+    
+</div>
+</tal:block>

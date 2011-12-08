@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<metadata>
+    <version>0.1</version>
+    <dependencies>
+        <!--<dependency>profile-collective.flowplayer:default</dependency>-->
+        <dependency>profile-Products.RedirectionTool:default</dependency>
+        <!--<dependency>profile-Products.PloneFlashUpload:default</dependency>--> 
+        <dependency>profile-Products.PloneKeywordManager:default</dependency>
+        <dependency>profile-Products.OrderableReferenceField:default</dependency>
+        <dependency>profile-younglives.content:default</dependency>
+    </dependencies>
+</metadata>
