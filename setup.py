@@ -24,7 +24,8 @@ setup(name='younglives.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'younglives.homepage',
+          'younglives.theme',
       ],
       extras_require = {
             'test': [

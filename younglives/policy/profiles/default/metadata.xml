@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <metadata>
   <version>1000</version>
+  <dependencies>
+    <dependency>profile-younglives.homepage:default</dependency>
+    <dependency>profile-younglives.theme:default</dependency>
+  </dependencies>
 </metadata>
