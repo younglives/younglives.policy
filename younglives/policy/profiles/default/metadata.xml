@@ -2,6 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+    <dependency>profile-younglives.content:default</dependency>
     <dependency>profile-younglives.homepage:default</dependency>
     <dependency>profile-younglives.theme:default</dependency>
   </dependencies>
