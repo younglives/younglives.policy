@@ -27,6 +27,7 @@ setup(name='younglives.policy',
           'younglives.content',
           'younglives.homepage',
           'younglives.theme',
+          'Products.RedirectionTool',
       ],
       extras_require = {
             'test': [
