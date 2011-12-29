@@ -6,5 +6,6 @@
     <dependency>profile-younglives.homepage:default</dependency>
     <dependency>profile-younglives.theme:default</dependency>
     <dependency>profile-Products.RedirectionTool:default</dependency>
+    <dependency>profile-oxford.intranet.folder:default</dependency>
   </dependencies>
 </metadata>

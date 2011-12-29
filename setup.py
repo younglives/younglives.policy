@@ -28,6 +28,7 @@ setup(name='younglives.policy',
           'younglives.homepage',
           'younglives.theme',
           'Products.RedirectionTool',
+          'oxford.intranet.folder',
       ],
       extras_require = {
             'test': [
