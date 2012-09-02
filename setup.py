@@ -29,6 +29,7 @@ setup(name='younglives.policy',
           'younglives.theme',
           'Products.RedirectionTool',
           'oxford.intranet.folder',
+          'redturtle.video',
       ],
       extras_require = {
             'test': [
