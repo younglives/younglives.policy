@@ -4,7 +4,7 @@
   <link_using_uids value="True"/>
   <allow_captioned_images value="True"/>
   <rooted value="False"/>
-  <linkable>
+  <linkable purge="True">
    <element value="Topic"/>
    <element value="Event"/>
    <element value="File"/>
@@ -19,29 +19,29 @@
    <element value="RTInternalVideo"/>
    <element value="RTRemoteVideo"/>
   </linkable>
-  <containsobjects>
+  <containsobjects purge="True">
    <element value="Folder"/>
    <element value="Large Plone Folder"/>
    <element value="Plone Site"/>
    <element value="IntranetFolder"/>
   </containsobjects>
-  <containsanchors>
+  <containsanchors purge="True">
    <element value="Event"/>
    <element value="News Item"/>
    <element value="Document"/>
    <element value="ATRelativePathCriterion"/>
   </containsanchors>
-  <imageobjects>
+  <imageobjects purge="True">
    <element value="Image"/>
   </imageobjects>
-  <customplugins>
+  <customplugins purge="True">
     <element value="ploneimage"/>
     <element value="plonelink"/>
   </customplugins>
   <entity_encoding value="raw"/>
  </resourcetypes>
  <layout>
-  <styles>
+  <styles purge="True">
    <element value="Heading|h2"/>
    <element value="Subheading|h3"/>
    <element value="Literal|pre"/>
