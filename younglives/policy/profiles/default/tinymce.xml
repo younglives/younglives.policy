@@ -56,7 +56,7 @@
   <directionality value="ltr"/>
   <contextmenu value="True"/>
   <autoresize value="False"/>
-  <tablestyles>
+  <tablestyles purge="True">
    <element value="Default|_default_"/>
    <element value="Invisible grid|invisible"/>
   </tablestyles>
@@ -89,7 +89,7 @@
   <toolbar_unlink value="True"/>
   <toolbar_visualchars value="False"/>
   <toolbar_media value="False"/>
-  <toolbar_code value="False"/>
+  <toolbar_code value="True"/>
   <toolbar_justifyfull value="False"/>
   <toolbar_charmap value="False"/>
   <toolbar_forecolor value="False"/>
