@@ -35,23 +35,21 @@
    <element value="Image"/>
   </imageobjects>
   <customplugins purge="True">
-    <element value="ploneimage"/>
-    <element value="plonelink"/>
+    <element value="plonebrowser"/>
   </customplugins>
   <entity_encoding value="raw"/>
  </resourcetypes>
  <layout>
   <styles purge="True">
-   <element value="Heading|h2"/>
-   <element value="Subheading|h3"/>
-   <element value="Sub-Subheading|h4"/>
+   <element value="Heading|h2|"/>
+   <element value="Subheading|h3|"/>
+   <element value="Sub-Subheading|h4|"/>
    <element value="Discreet|span|discreet"/>
    <element value="Clear floats|div|visualClear"/>
   </styles>
   <content_css value=""/>
   <editor_width value="100%"/>
   <editor_height value="400"/>
-  <directionality value="ltr"/>
   <contextmenu value="True"/>
   <autoresize value="False"/>
   <tablestyles purge="True">
