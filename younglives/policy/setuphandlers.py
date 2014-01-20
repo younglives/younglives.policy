@@ -6,6 +6,7 @@ from StringIO import StringIO
 from Products.CMFCore.utils import getToolByName
 
 from younglives.content.interfaces.content import IGalleryContainerAware
+from younglives.content.interfaces.content import IQuoteAware
 
 def importVarious(context):
     """
@@ -21,4 +22,9 @@ def importVarious(context):
     for item in items:
         object = item.getObject()
         noLongerProvides(object, IGalleryContainerAware)
+        object.reindexObject()
+    items = catalog.searchResults({'object_provides':'IQuoteAware.__identifier__',})
+    for item in items:
+        object = item.getObject()
+        noLongerProvides(object, IQuoteAware)
         object.reindexObject()
