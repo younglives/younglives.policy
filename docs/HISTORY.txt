@@ -1,8 +1,11 @@
 Changelog
 =========
 
-1.0.2 Unreleased
+1.0.2 2014/01/29
 ----------------
+
+ - Add methods to remove redundant interfaces
+ - Update TinyMCE
 
 1.0.1 2012/09/18
 ----------------
