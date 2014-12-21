@@ -7,6 +7,6 @@
     <dependency>profile-younglives.theme:default</dependency>
     <dependency>profile-Products.RedirectionTool:default</dependency>
     <dependency>profile-oxford.intranet.folder:default</dependency>
-    <dependency>profile-redturtle.video:default</dependency>
+    <dependency>profile-wildcard.media:default</dependency>
   </dependencies>
 </metadata>
