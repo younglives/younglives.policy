@@ -17,6 +17,7 @@
    <element value="Publication"/>
    <element value="Author"/>
    <element value="Research"/>
+   <element value="YLPublication"/>
   </property>
  </object>
  <object name="site_properties" meta_type="Plone Property Sheet">
